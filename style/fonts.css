@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'RB-700';
+    src: url('../fonts/Roboto/Roboto-Bold.ttf');
+}
+
+
+@font-face {
+    font-family: 'RR-400';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'RIt';
+    src: url('../fonts/Roboto/Roboto-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Cons';
+    src: url('../fonts/Consolas/consolas.ttf');
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/Bebas/BebasNeue-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: 'Kelly';
+    src: url('../fonts/Kelly/KellySlab-Regular.ttf');
+}
