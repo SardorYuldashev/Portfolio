@@ -1547,11 +1547,8 @@ label {
 @media (max-width: 570px) {
     .header__nav-info {
         height: 17px;
-    }    
-    .header__nav-title {
-        margin-left: 0;
-        font-size: 30px;
     }
+
     .header__nav-phone {
         font-size: 14px;
     }
@@ -1619,22 +1616,15 @@ label {
     .footer__content-phone {
         font-size: 100%;
     }
+
+    .main__parallax {
+        display: none;
+    }
 }
 
 @media (max-width: 450px) {
-    .header__nav-tel {
-        display: none;
-    }
-    .header__nav-content {
-        justify-content: space-around;
-    }
-
     .main__info-avatar {
         width: 30%;
-    }    
-
-    .main__parallax {
-        height: 200px;
     }
 
     .figma-perspective {
