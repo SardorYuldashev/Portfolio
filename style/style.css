@@ -240,13 +240,9 @@ label {
     transform: rotateY(0deg);
 }
 
-.left__block-img:hover {
+.left__block-img-active {
     animation: imgkrug 1 2s ease-in-out;
 }
-
-
-
-
 
 .left__block-name {
     font-family: var(--Bebas);

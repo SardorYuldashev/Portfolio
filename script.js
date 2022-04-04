@@ -173,4 +173,15 @@ figmaBtn.addEventListener('click', (e) => {
         figmaBtn.innerHTML = 'Поднять карточек'
     }
 })
+
+// ***********************************left blog hover effect
+const logo = document.querySelector('.left__block-img');
+
+logo.addEventListener('mouseover', () => {
+    logo.classList.add('left__block-img-active');
+})
+
+logo.addEventListener('mouseout', () => {
+    setTimeout(() => {logo.classList.remove('left__block-img-active')}, 2500);    
+})
 })()
