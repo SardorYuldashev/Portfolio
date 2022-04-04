@@ -235,13 +235,18 @@ label {
 }
 
 .left__block-img {
-    width: 50%;
-    border-radius: 50%;
-    display: block;
-    border: 3px solid rgba(255, 255, 255, 0.564);
-    box-shadow: 0 0 15px white;
-    margin-top: 5%;
+    width: 35%;
+    padding: 25px 0;
+    transform: rotateY(0deg);
 }
+
+.left__block-img:hover {
+    animation: imgkrug 1 2s ease-in-out;
+}
+
+
+
+
 
 .left__block-name {
     font-family: var(--Bebas);
@@ -312,8 +317,8 @@ label {
 }
 
 .left__block-language {
-    color: blueviolet;
-    font-family: var(--RIt);
+    color: rgb(255, 255, 255);
+    font-family: var(--Cons);
     font-size: 20px;
     font-weight: bold;
     cursor: default;
@@ -354,10 +359,19 @@ label {
     margin-top: 10%;
     box-shadow: 4px 4px 5px black;
     transition: .5s;
+    margin-bottom: 50px;
 }
 
 .left__block-qr:hover {
     transform: scale(1.1);
+}
+
+.left__block-email {
+    font-family: var(--Cons);
+    font-style: italic;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.792);
+    cursor: default;
 }
 /* ------------------------------------------------left block end */
 /* ************** */
@@ -1350,6 +1364,20 @@ label {
 
     100% {
         background-color: rgb(203, 91, 16);
+    }
+}
+
+@keyframes imgkrug {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+    100% {
+        transform: rotateY(0deg);
     }
 }
 /* keyframes end */
